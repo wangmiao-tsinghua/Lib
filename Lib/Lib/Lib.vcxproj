@@ -75,6 +75,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="logger.h" />
+    <ClInclude Include="min_heap.h" />
+    <ClInclude Include="array.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="logger.cpp" />

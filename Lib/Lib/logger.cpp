@@ -155,7 +155,7 @@ void Logger::demo()
 	
 	Logger::logWarning("%s %d %s\n",  __FILE__, __LINE__, __FILE__);
 
-	Logger::logError("%s %d %s\n",  __FILE__, __LINE__, __FILE__);
+	//Logger::logError("%s %d %s\n",  __FILE__, __LINE__, __FILE__);
 
 	Logger::set_prefix(false);
 
