@@ -159,7 +159,7 @@ void Logger::demo()
 
 	Logger::set_prefix(false);
 
-	Logger::log("prefix false");
+	Logger::log("prefix false\n");
 
 	Logger::clear();
 	

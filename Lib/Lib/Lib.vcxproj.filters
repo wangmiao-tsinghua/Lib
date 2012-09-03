@@ -13,24 +13,47 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{603bd628-1f74-481b-a1cd-d88cbbd89852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image_processing_kit">
+      <UniqueIdentifier>{d79da275-06fe-4ff1-98d1-b297240ddb50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logger">
+      <UniqueIdentifier>{d9de62df-a66d-4313-918d-6b535de5bb34}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="logger.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="array.h">
+      <Filter>util</Filter>
     </ClInclude>
     <ClInclude Include="min_heap.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>logger</Filter>
+    </ClInclude>
+    <ClInclude Include="global_header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="image_kit.h">
+      <Filter>image_processing_kit</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="logger.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="logger.cpp">
+      <Filter>logger</Filter>
+    </ClCompile>
+    <ClCompile Include="image_kit.cpp">
+      <Filter>image_processing_kit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt">
+      <Filter>util</Filter>
+    </None>
   </ItemGroup>
 </Project>

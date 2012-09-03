@@ -41,6 +41,8 @@ namespace util{
 			virtual bool empty(){ return size_<=0 ;}
 
 			void swap(int a, int b);
+			
+			void demo(); 
 		
 		protected:
 			void expand();
@@ -51,6 +53,17 @@ namespace util{
 			int capacity_;
 			int size_;
 		};
+
+		template<typename T>
+		void util::array::Array<T>::demo()
+		{
+			//demo
+			util::array::Array<int> a;
+			for(int i=0;i<10;++i)
+				a.insert(i);
+			a.remove(0,10);
+			std::cout<<a.size()<<"	"<<a.capacity()<<std::endl;
+		}
 
 		template<typename T>
 		void util::array::Array<T>::swap( int a, int b )
